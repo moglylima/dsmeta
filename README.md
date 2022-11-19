@@ -18,7 +18,7 @@ DSMeta
 ## Tecnologias utilizadas
 
 - Java
-- Spring Boot
+- Spring Boot(JPA, Web, H2, Lombok, security, twilio)
 - javascript
 - html
 - css
