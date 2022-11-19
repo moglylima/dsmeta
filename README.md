@@ -1,4 +1,4 @@
-# FrontEnd DSMeta
+# Projeto DSMeta
 
 > _Projeto desenvolvido durante a semana Spring React realizadada pela DevSuperior._
 
