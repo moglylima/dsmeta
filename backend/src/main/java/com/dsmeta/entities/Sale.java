@@ -30,5 +30,7 @@ public class Sale {
 	private Integer deals;
 	private Double amount;
 	private LocalDate date;
+	
+	
 
 }
