@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -19,7 +20,8 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 
-@Entity(name = "tbl_sales")
+@Entity()
+@Table(name = "tbl_sales")
 public class Sale {
 	
 	@Id
