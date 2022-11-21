@@ -34,7 +34,8 @@ DSMeta
 ![Layout Mobile](./.img/layout-mobile.png)
 
 ## Acesse 
-https://dsmeta-drab.vercel.app/
+https://dsmeta-psi.vercel.app/
+
 ## OBS
 
 Nas pastas referente ao frontend e backend, há um arquivo README.md com mais informações sobre cada parte do projeto.
