@@ -1,24 +1,25 @@
 import { NotificationButton } from './components/NotificationButton/NotificationButton';
-import {Header} from './components/Header/Header';
-import {Footer} from './components/Footer/Footer';
-import {SalesCard} from './components/SalesCard/SalesCard';
+import { Header } from './components/Header/Header';
+// import {Footer} from './components/Footer/Footer';
+import { SalesCard } from './components/SalesCard/SalesCard';
 import "./index.css";
-export const App =()=> {
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from 'react-toastify';
+export const App = () => {
   return (
-    <div>
+    <>
+      <ToastContainer />
       <Header />
-
-      
       <main>
         <section id="sales">
           <div>
             <SalesCard />
-            
+
           </div>
         </section>
       </main>
 
-    </div>);
+    </>);
 }
 
 
