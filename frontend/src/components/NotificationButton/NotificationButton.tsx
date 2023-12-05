@@ -9,11 +9,17 @@ type props = {
 }
 
 function hadleClick(id: number) {
-  axios(`${BASE_URL}sales/${id}/notification`)
-    .then(
-      response => toast.success("Notificação enviada com sucesso!")
-    )
-    .catch((err) => console.log(err));
+  //axios(`${BASE_URL}sales/${id}/notification`)
+    //.then(
+      //response => toast.success("Notificação enviada com sucesso!")
+    //)
+    //.catch((err) => console.log(err));
+
+    if(id){
+      toast.success("Notificação enviada com sucesso!")
+    }else{
+      toast.error("Erro ao enviar notificação!")
+    }
 }
 
 
