@@ -28,6 +28,7 @@ public class SaleController {
 	public Page<Sale> getAllSalesPageable(Pageable pageable,
 			@RequestParam(value="minDate", defaultValue = "") String minDate,
 			@RequestParam(value="maxDate", defaultValue = "") String maxDate) {
+		System.out.println("Min date: " + minDate + " Max date: " + maxDate);
 		return saleService.getAllSalesPageable(pageable, minDate, maxDate);		
 	}
 	

@@ -24,8 +24,8 @@ export const SalesCard = () => {
     useEffect(() => {
       const dmin = minDate.toISOString().substring(0, 10);
       const dmax = maxDate.toISOString().substring(0, 10);
-      console.log(BASE_URL);
-        axios.get(`${BASE_URL}sales?minDate${dmin}&maxDate=${dmax}`)
+
+        axios.get(`${BASE_URL}sales?minDate=${dmin}&maxDate=${dmax}`)
         .then(response => {
             setSales(response.data.content);
         })
